@@ -1,6 +1,12 @@
-#include "main.h"
-#include <unistd.h>
-int _putchar(char c)
+#include <stdio.h>
+/*
+ * Description: check the code
+ * main - prints _putchar
+ *
+ * Return: 0 on success
+ */
+int main(void)
 {
-	return(write(1, &c, 1));
+	printf("_putchar\n");
+return (0);
 }
